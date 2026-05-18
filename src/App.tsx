@@ -92,11 +92,6 @@ export default function App() {
                 </tbody>
               </table>
             </div>
-
-            <div className="mt-8 pt-6 border-t border-slate-200 space-y-3">
-              <p className="text-sm text-slate-600">Ответственный за размещение: <button onClick={() => setCurrentPage("resume")} title="Посмотреть резюме ответственного лица Ветрова Т. А." className="text-indigo-600 font-semibold underline hover:text-indigo-800 inline-flex items-center gap-1 cursor-pointer">Ветров Тимофей <Link2 size={14}/></button></p>
-              <p className="text-sm text-slate-600">Сообщите нам о номере по <a href="mailto:adm@mail.ru" title="Связаться по e-mail" className="text-emerald-600 font-semibold underline hover:text-emerald-800 inline-flex items-center gap-1">e-mail <Mail size={14}/></a></p>
-            </div>
           </div>
         )}
 
@@ -125,23 +120,14 @@ export default function App() {
 
             <div className="border-b border-slate-100 pb-6 mb-6">
               <h2 className="text-3xl font-bold text-slate-900 mb-1">Резюме студента</h2>
-              <p className="text-sm text-slate-400">Ветров Тимофей Алексеевич | Группа ИСИП-24-01-1</p>
+              <p className="text-sm text-slate-400">Ветров Тимофей Сергеевич | Группа ИСИП-24-01-1</p>
             </div>
 
             <div className="clearfix text-sm text-slate-600 leading-relaxed space-y-4">
               <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=150&q=80" alt="Логотип" title="Логотип разработчика" style={{ width: `${logoSize}px`, border: `${logoBorderSize}px solid #334155`, float: logoAlign, marginRight: logoAlign === "left" ? "16px" : "0", marginLeft: logoAlign === "right" ? "16px" : "0", marginBottom: "8px" }} className="rounded-xl shadow-md transition-all duration-200" />
-              <p><b>Дата и место рождения:</b> 14 января 2006 года, г. Сургут.</p>
+              <p><b>Дата и место рождения:</b> 24 июня 2008 года, г. Красноярск.</p>
               <p><b>Образование:</b> Среднее профессиональное, специальность «Информационные системы и программирование».</p>
-              <p><b>Технологический стек:</b> JavaScript (ES6+), TypeScript, React, TailwindCSS, Node.js, Git/GitHub.</p>
-            </div>
-
-            <div className="mt-8 p-6 bg-slate-50 rounded-2xl border border-slate-200/60 clear-both">
-              <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2"><FileText size={20} className="text-indigo-500"/> Мои достижения</h3>
-              <ul className="space-y-3 text-sm">
-                <li>📁 <a href="/docs/certificate_tanstack.docx" download title="Скачать документ Word" className="text-indigo-600 font-medium hover:underline">Сертификат_TanStack_Table.docx</a></li>
-                <li>📊 <a href="/presentations/architecture_vite.pptx" download title="Скачать презентацию PowerPoint" className="text-indigo-600 font-medium hover:underline">Презентация_Архитектура_Vite.pptx</a></li>
-                <li>🖼️ <a href="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80" target="_blank" title="Открыть скриншот архитектуры" className="text-indigo-600 font-medium hover:underline">Схема_БД_Инфраструктуры_Отеля.png</a></li>
-              </ul>
+              <p><b>Технологический стек:</b> JavaScript (ES6+), TypeScript, React, TailwindCSS, Node.js, Git/GitHub, Linux.</p>
             </div>
 
             <div className="mt-8 pt-4 border-t border-slate-200">
